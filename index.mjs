@@ -5,7 +5,7 @@ import serveStatic from "serve-static";
 import * as readline from 'readline-sync';
 import * as fs from "fs";
 import path from "path";
-const WebSocket_port = 8080;
+const WebSocket_port = 5123;
 const HTTP_port = 9123;
 const wss = new WebSocketServer({ port: WebSocket_port });
 const serve = serveStatic("./");
